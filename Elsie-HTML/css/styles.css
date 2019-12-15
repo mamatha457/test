@@ -1,0 +1,618 @@
+body {
+	font-family: 'GT Walsheim';
+	font-size: 14px;
+	color: #000;
+	background: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+div,
+ul,
+p,
+a {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.txtright {
+	text-align: right;
+}
+.flt {
+	float: left;
+}
+.frt {
+	float: right;
+}
+.clr {
+	clear: both;
+}
+.top17 {
+	padding-top: 18px;
+}
+.paddtop7 {
+	padding-top: 7px;
+}
+.paddleft20 {
+	padding-left: 20px;
+}
+br.clr {
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	padding: 8px 10px;
+}
+
+/* Headre start */
+
+.Bghdrtop {
+	background: #141414;
+	height: 30px;
+}
+.Bghdr {
+	background: #000;
+	height: 102px;
+}
+.containerwidth {
+	width: 1240px;
+	margin: 0px auto;
+}
+.logo {
+	float: left;
+}
+.logotxt {
+	font-family: 'GT Walsheim';
+	font-weight: bold;
+	font-size: 34px;
+	color: #fff;
+	vertical-align: top;
+	line-height: 50px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+li.topmenu {
+	color: #fff;
+	font-family: GT Walsheim;
+	font-size: 14px;
+	font-weight: bold;
+}
+ul.headernav li a.search {
+	background: url(../images/Search_Icon.png) no-repeat center bottom;
+	width: 16px;
+	height: 16px;
+	padding: 0px 0px;
+	display: inline-block;
+}
+ul.headernav li a.setting {
+	background: url(../images/Settings_Icon.png) no-repeat center bottom;
+	width: 16px;
+	height: 16px;
+	padding: 0px 0px;
+	display: inline-block;
+}
+
+ul.headernav li a.search:hover {
+	background: url(../images/Search_Icon_Hover.png) no-repeat center bottom;
+	width: 16px;
+	height: 16px;
+	padding: 0px 0px;
+	display: inline-block;
+}
+ul.headernav li a.setting:hover {
+	background: url(../images/Settings_Icon_Hover.png) no-repeat center bottom;
+	width: 16px;
+	height: 16px;
+	padding: 0px 0px;
+	display: inline-block;
+}
+li.topmenu img {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+/* header END */
+/* Navigation start*/
+nav {
+	background: #f2f2f2;
+	height: 68px;
+	font-family: GT Walsheim;
+}
+.navigation {
+	width: 1240px;
+	margin: 0px auto;
+}
+nav li {
+	font-size: 18px;
+	vertical-align: top;
+	padding: 0px;
+	font-weight: bold;
+}
+nav li img {
+	vertical-align: bottom;
+	padding-right: 10px;
+}
+nav li a {
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 20px 30PX;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	border-bottom: 6px solid #00c9ff;
+}
+nav li a.active {
+	border-bottom: 6px solid #00c9ff;
+	background: #fff;
+}
+/** navigation END***/
+/** Footer Start*/
+footer {
+	background: #000;
+	font-family: GT Walsheim;
+	height: 80px;
+	color: #fff;
+	padding-top: 20px;
+	margin-top: 40px;
+}
+footer li {
+	font-size: 18px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+footer li a {
+	color: #fff;
+	padding-right: 10px;
+	text-decoration: none;
+}
+footer li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.footercontainer {
+	width: 1202px;
+	margin: 0px auto;
+}
+/* Navigation END***/
+
+/** Tab area start**/
+.tabarea {
+	padding-top: 40px;
+	width: 1202px;
+	margin: 0px auto;
+}
+.tabarea a.tablink {
+	display: inline-block;
+	margin-right: 0px;
+	outline: none;
+	padding: 20px 15px;
+	position: relative;
+	text-decoration: none;
+	background: #fff;
+	font-family: GT Walsheim;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+.tabarea a.tablink:hover {
+	background: #f0f0f0;
+}
+
+.tabarea a.activeTab {
+	background: #000;
+	color: #ffed00;
+	border-bottom: 0px;
+	padding: 20px 15px;
+}
+.tabarea a.activeTab:hover {
+	background: #000;
+}
+.tabarea a:after {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	content: "";
+	top: 58px;
+	right: 40%;
+	z-index: 2;
+}
+
+.tabarea a.activeTab:after {
+	border-top: 10px solid #000;
+}
+a.tab-item {
+	border: 1px solid #d9d9d9;
+	border-right: 0px;
+}
+a.tab-item.last {
+	border-right: 1px solid #d9d9d9;
+}
+/** tab ENDED**/
+
+/*** Filter area start***/
+
+.filterarea {
+	padding-top: 30px;
+	font-family: GT Walsheim;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 10px;
+	height: 36px;
+	margin: 0px auto;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 30px;
+}
+ul.priorty {
+	width: 600px;
+	float: left;
+}
+.filterarea ul li {
+	padding: 10px 0px 10px 0px;
+}
+.filterarea ul li.first {
+	padding: 10px 0px 10px 0px;
+}
+.filterarea ul li.last {
+	padding: 10px 0px 10px 0px;
+}
+.filterarea li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 20px 10px 0px;
+}
+.filterarea li a:hover {
+	text-decoration: underline;
+}
+.filterarea ul.filterright li a {
+	background: #fff;
+	padding: 10px 10px 12px 10px;
+}
+.filterarea ul.filterright li a:hover {
+	background: #f0f0f0;
+	text-decoration: none;
+	padding: 10px 10px 12px 10px;
+}
+
+.filterarea img {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.filterright {
+	float: right;
+}
+
+/** Main Conatainer Start*/
+.maincontainer {
+	width: 1202px;
+	margin: 0px auto;
+}
+.box {
+	width: 385px;
+	border: 1px solid #d9d9d9;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.rightbox {
+	width: 385px;
+	border: 1px solid #d9d9d9;
+	float: left;
+}
+
+.greenbdr {
+	border-top: 5px solid #0ba952;
+	width: 96px;
+	height: 0px;
+}
+.yellowbdr {
+	border-top: 5px solid #f8c400;
+	width: 96px;
+	height: 0px;
+}
+
+.bluebdr {
+	border-top: 5px solid #096cbd;
+	width: 96px;
+	height: 0px;
+}
+
+.redbdr {
+	border-top: 5px solid #ec0900;
+	width: 96px;
+	height: 0px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	padding-bottom: 15px;
+}
+.contentbox {
+	padding: 15px 20px 20px 20px;
+}
+.contentbox img {
+	text-align: right;
+	float: right;
+	padding-top: 10px;
+}
+.datetxt,
+.discription {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.datetxt span,
+.discription span,
+.lftdatetxt span,
+.lftdiscriptiontxt span {
+	font-weight: bold;
+}
+/***Main contet end***/
+
+/**demand page **/
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.lftdatetxt {
+	font-size: 14px;
+	width: 25%;
+	float: left;
+}
+.lftdiscriptiontxt {
+	font-size: 14px;
+	width: 65%;
+	float: left;
+}
+.editicon {
+	width: 7%;
+	float: left;
+	margin-left: 25px;
+}
+.cardviewbox {
+	border: 1px solid #d9d9d9;
+	border-top: 0px;
+}
+.topbdr {
+	border-top: 1px solid #d9d9d9;
+}
+.greenlftbdr {
+	border-left: 5px solid #0ba952;
+}
+.redlftbdr {
+	border-left: 5px solid #ec0900;
+}
+.bluelftbdr {
+	border-left: 5px solid #0299bc;
+}
+.yellowlftbdr {
+	border-left: 5px solid #f8c400;
+}
+.cardviewbox .contentbox {
+	padding: 20px 20px 20px 15px;
+}
+.cardviewbox .contentbox img {
+	padding-top: 18px;
+}
+.lftdatetxt p {
+	padding-bottom: 5px;
+}
+.lftdatetxt p.priority {
+	padding-bottom: 0px;
+}
+.cardviewbox h3 {
+	padding-bottom: 5px;
+}
+
+#chatTogglerDiv {
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	border: 0;
+	z-index: 99;
+	cursor: pointer;
+}
+
+#chatTogglerImg {
+	max-width: none;
+}
+
+/* The popup form - hidden by default */
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 1px;
+	right: 0px;
+	z-index: 100;
+}
+
+.chat-container {
+	width: 402px;
+	background-color: #fff;
+	border: 1px solid #cfcfcf;
+}
+
+/* When the inputs get focus, do something */
+.chat-container input[type=text]:focus {
+	outline: none;
+}
+
+.chathdrBG {
+	background: #000;
+	padding: 15px 15px 10px 15px;
+}
+.hdrlogo {
+	width: 80%;
+	color: #fff;
+	position: relative;
+}
+.chattext {
+	font-size: 21px;
+	position: absolute;
+	bottom: 6px;
+	margin-left: 65px;
+	font-weight: bold;
+}
+.chattext p {
+	font-size: 15px;
+	font-weight: normal;
+}
+.close {
+	padding-right: 15px;
+}
+.chatbody {
+	padding: 30px 45px 30px 15px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	height:260px;
+
+}
+.welcomemsg img {
+	vertical-align: middle;
+	margin-right: 20px;
+	float: left;
+	padding-top: 5px;
+}
+.quicklnks {
+	border: 1px solid #d9d9d9;
+	margin-left: 60px;
+}
+.quicklnks li {
+	float: none;
+	width: 256px;
+	padding: 10px 15px;
+	font-size: 18px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.quicklnks li:last-child{border-bottom:none;}
+.hdrlnks {
+	background: #d9d9d9;
+	font-weight: bold;
+}
+.quicklnks li a {
+	color: #000;
+	text-decoration: none;
+}
+.quicklnks li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.homeIcon {
+	border-top: 1px solid #d9d9d9;
+	padding: 10px 15px 5px 10px;
+	text-align: right;
+	margin: 0px;
+}
+.mikeIcon {
+	border-top: 1px solid #d9d9d9;
+}
+.mikeIcon input {
+	width: 322px;
+	border: none;
+	padding: 15px;
+	border-right: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	font-size: 14px;
+}
+.mikeIcon img {
+	padding-left: 15px;
+	border-right: 15px;
+	Vertical-align: middle;
+}
+.elsedate {
+	color: #666666;
+	padding-left: 65px;
+	padding-top: 8px;
+	clear: both;
+	padding-bottom:25px;
+}
+.userdate {
+	color: #666;
+	text-align: right;
+	clear: both;
+	margin-bottom: 25px;
+}
+.usermsg {
+	background: #00c9ff;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 8px;
+}
+.welcomemsg .tooltiptext {
+	max-width: 235px;
+	background-color: #d9d9d9;
+	color: #000;
+	text-align: left;
+	border-radius: 0px;
+	padding: 10px;
+	float: left;
+	margin-left: 4px;
+	position: relative;
+	display: block;
+}
+.welcomemsg .tooltiptext::after {
+	content: "";
+	position: absolute;
+	right: 98%;
+	vertical-align: top;
+	top: 5px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent #d9d9d9 transparent transparent;
+}
+.usermsg.tooltipusertext {
+	max-width: 70%;
+	background-color: #00c9ff;
+	color: #000;
+	border-radius: 0px;
+	padding: 10px;
+	float: right;
+	top: -5px;
+	margin-right:10px;
+	position: relative;
+	display: block;
+}
+.usermsg.tooltipusertext::after {
+	content: "";
+	position: absolute;
+	margin-top: -5px;
+	border-width: 12px;
+	border-style: solid;
+	margin-right:-10px;
+	right:-10px;
+	border-color: transparent transparent transparent #00c9ff;
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+	#chatTogglerDiv {
+		position: fixed;
+		bottom: 50px;
+		right: 1%;
+		border: 0;
+		z-index: 99;
+		cursor: pointer;
+	}
+	.chatbody {
+		height:460px !important;
+	
+	}
+}
